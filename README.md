@@ -7,16 +7,26 @@ Link to our App: https://cache-fintech.herokuapp.com/
 
 # HOW TO START OUR APPLICATION IN YOUR LOCAL
 * Create a .env file
-* Add the following variable with their appropriate values to the .env file :
-       PORT
-       MONGODB_URL
-       SECRET_KEY
+* Add the following variable with their appropriate values to the .env file 
 
-*In app.js place your MongoDB URL
-     uri: "<Replace with your MONGODB URL>",
-     collection: 'sessions'
-*Open the dedicated Terminal of Your OS and Follow the Steps :
+  * PORT
+  * MONGODB_URL
+  * SECRET_KEY
 
-   Run npm ci
-   Run npm start
-   If everything is working fine, You will get a confirmation message that your application is running.
+* In app.js place your MongoDB URL
+        
+        
+        uri: "<Replace with your MONGODB URL>",collection: 'sessions'
+    
+    
+    collection: 'sessions'
+
+* Open the dedicated Terminal of Your OS and Follow the Steps :
+
+  * Run 
+        
+        npm ci
+  * Run 
+        
+        npm start
+  * If everything is working fine, You will get a confirmation message that your application is running.
